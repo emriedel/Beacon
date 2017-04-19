@@ -1,0 +1,13 @@
+Light Effect: github.com/robertcupisz
+Wall and floor textures from: http://telias.free.fr/textures_menu.html (found on asset store)
+Hashed font by bebc from 1001fonts.com (http://bebc.1001fonts.com/)
+Lakmus font by Fenotype from 1001fonts.com (http://fenotype.1001fonts.com/)
+Custom Text Shader by Eric "Eric5h5" Haines (http://wiki.unity3d.com/index.php?title=3DText)
+
+Oxygen Tank on Screen:  JustinGarza -- Gradient GUI Bars (Asset Store)
+Purple Skybox:  TL Multimedia -- Purple Space Nebula Skybox
+Crashed Spaceship:  KuhnIndustries -- http://www.turbosquid.com/FullPreview/Index.cfm/ID/798902
+Images from Google Images
+	(Fissure)
+	(Xbox Controller Buttons)
+

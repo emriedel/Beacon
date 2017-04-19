@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Portal
+  - Switch
+  - OutsideDoor
+  - hiding_spot
+  - WireLoc
+  - ScrewdriverLoc
+  - FrontDoor
+  - GasolineLoc
+  - Dog
+  - FirstSpawn
+  - Enemy
+  - Lever
+  - PatrolPoint
+  - OxygenTank
+  - Obstacle
+  - OxygenSource
+  - Rotor
+  - IntroLever
+  - Beacon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player1
+  - Player2
+  - Radar
+  - Map
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &133568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 489604}
+  - 114: {fileID: 11418488}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
+--- !u!4 &489604
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11418488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f18fc80ea0428147b02894443265729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapFile: {fileID: 4900000, guid: 01ffb107b1c494cf0946d0c23eb74e34, type: 3}
+  tileKey:
+  - character: 32
+    prefab: {fileID: 0}
+  - character: 35
+    prefab: {fileID: 165110, guid: e6d17952ae0e83f4783c8226fc1d4e0d, type: 2}
+  - character: 80
+    prefab: {fileID: 100390, guid: cf6c8fc21c0b9427e9afd945300b617c, type: 2}
+  - character: 68
+    prefab: {fileID: 111256, guid: f23386cbf0620427aa6e620110a71bbc, type: 2}
+  - character: 76
+    prefab: {fileID: 128640, guid: e30597d0deb9b417fac81d42ec64ad72, type: 2}
+  - character: 67
+    prefab: {fileID: 126728, guid: 1c218c73f81eae943b10a881e85fa635, type: 2}
+  - character: 74
+    prefab: {fileID: 146332, guid: 0349cd060722e6347a624d8886ae2360, type: 2}
+  - character: 79
+    prefab: {fileID: 138716, guid: f01cb75b7eee2a1438f981277fe511dc, type: 2}
+  - character: 66
+    prefab: {fileID: 166166, guid: 4e4714e6f33d74053bb8f8656ad30245, type: 2}
+  - character: 82
+    prefab: {fileID: 100620, guid: 4e5cc3879e33f4ccc94125d5270655f5, type: 2}
+  floorPrefab: {fileID: 187854, guid: 1c164ec313bf7d546aee8701de7f7b3d, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: tileKey.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 133568}
+  m_IsPrefabParent: 1
